@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/lafetchingpooch/static/css/main.4ab4f5bc.css",
+    "main.js": "/lafetchingpooch/static/js/main.252bea2e.js",
+    "static/js/787.a841ed7c.chunk.js": "/lafetchingpooch/static/js/787.a841ed7c.chunk.js",
+    "static/media/LadyRedDressWalkingDog.jpg": "/lafetchingpooch/static/media/LadyRedDressWalkingDog.224c16364c981a30fd7e.jpg",
+    "static/media/AlexBrush-Regular.ttf": "/lafetchingpooch/static/media/AlexBrush-Regular.b50947ef756f43126a52.ttf",
+    "index.html": "/lafetchingpooch/index.html",
+    "main.4ab4f5bc.css.map": "/lafetchingpooch/static/css/main.4ab4f5bc.css.map",
+    "main.252bea2e.js.map": "/lafetchingpooch/static/js/main.252bea2e.js.map",
+    "787.a841ed7c.chunk.js.map": "/lafetchingpooch/static/js/787.a841ed7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ab4f5bc.css",
+    "static/js/main.252bea2e.js"
+  ]
+}
