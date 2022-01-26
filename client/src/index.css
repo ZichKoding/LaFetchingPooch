@@ -17,7 +17,7 @@
 }
 
 .font-sm {
-    font-size: 22px;
+    font-size: 1.3rem;
 }
 
 .no-li-style {
@@ -28,9 +28,15 @@
     text-decoration: none;
 }
 
+.li-span {
+    border-bottom: 2px solid red;
+}
+
 /* Header & Nav */
 .biz-container{
+    margin-top: 1rem;
     margin-left: 1rem;
+    margin-bottom: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -50,13 +56,13 @@
 }
 
 .nav-ul {
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 .nav-links {
-    width: 5rem;
+    width: 10rem;
+    margin: 1rem 0rem 2rem 7rem;
     text-align: center;
-    background-color: rgb(158, 22, 22);
     border-radius: 1rem;
-    box-shadow: 0 0 0.5rem black;
+    text-shadow: 0 0 0.5rem black;
 }

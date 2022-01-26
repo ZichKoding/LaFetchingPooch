@@ -20,7 +20,7 @@ function Nav() {
             </a>
             <ul className="container nav-ul">
                 {navcontent.map((content) => (
-                    <li className=".font-sm no-li-style nav-links">{content}</li>
+                    <li className="font-sm no-li-style nav-links"><span className="li-span">{content}</span></li>
                 ))}
             </ul>
         </header>
