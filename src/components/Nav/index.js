@@ -22,7 +22,7 @@ function Nav() {
         catch (e) {
             console.error(e);
         }
-    })
+    });
 
     return (
         <header>
@@ -38,7 +38,7 @@ function Nav() {
                         </a>
                     </Col>
                     <Col xs={9} sm={4} md={6} lg={6}>
-                        {state > 992 ? (
+                        {state > 992 || screenWidth > 992 ? (
                             <Container className="font-white font-sm font-b-style">
                                 <Row>
                                     {navcontent.map((content) => (
