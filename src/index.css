@@ -43,10 +43,13 @@
 
 .li-span {
     border-bottom: 2px solid rgb(22, 22, 141);
-    margin: 5rem 0rem;
 }
 
 /* Header & Nav */
+header {
+    box-shadow: 0 0 0.5rem black;
+}
+
 .center-logo {
     margin: 1rem 0;
     text-align: center;
@@ -83,7 +86,7 @@
 
 .nav-content {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 7rem;
     border-radius: 1rem;
     text-shadow: -0.2rem -0.2rem 0.5rem black;
 }

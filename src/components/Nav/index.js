@@ -37,7 +37,7 @@ function Nav() {
                             <h1>
                                 La Fetching Pooch, LLC
                             </h1>
-                            <p>Mobile Dog Grooming Services</p>
+                            <p>Mobile Pet Grooming Services</p>
                         </a>
                     </Col>
                     <Col xs={12} sm={4} md={6} lg={6}>
