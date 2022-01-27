@@ -12,7 +12,7 @@ function Nav() {
         "Contact Us"
     ];
 
-    let screenWidth;
+    let screenWidth = window.screen.width;
 
     window.addEventListener('resize', async () => {
         try {
@@ -38,7 +38,24 @@ function Nav() {
                         </a>
                     </Col>
                     <Col xs={9} sm={4} md={6} lg={6}>
-                        {state <= 1250 ? (
+                        {state > 992 ? (
+                            <Container className="font-white font-sm font-b-style">
+                                <Row>
+                                    {navcontent.map((content) => (
+                                        <Col key={content} className="nav-content">
+                                            <span className="li-span">
+                                                {content}
+                                            </span>
+                                        </Col>
+                                    ))}
+                                    <Col className="center-logo">
+                                        <a href="/" className="no-a-style font-white">
+                                            <img src={logo} alt="logo" className="logo" />
+                                        </a>
+                                    </Col>
+                                </Row>
+                            </Container>
+                        ) : (
                             <Container>
                                 <Row>
                                     <Col xs={6} sm={6}>
@@ -59,23 +76,6 @@ function Nav() {
                                     </Col>
                                 </Row>
                             </Container> 
-                        ) : (
-                            <Container className="font-white font-sm font-b-style">
-                                <Row>
-                                    {navcontent.map((content) => (
-                                        <Col key={content} className="nav-content">
-                                            <span className="li-span">
-                                                {content}
-                                            </span>
-                                        </Col>
-                                    ))}
-                                    <Col className="center-logo">
-                                        <a href="/" className="no-a-style font-white">
-                                            <img src={logo} alt="logo" className="logo" />
-                                        </a>
-                                    </Col>
-                                </Row>
-                            </Container>
                         )}
                         
                     </Col>
