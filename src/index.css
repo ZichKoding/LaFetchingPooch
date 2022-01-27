@@ -112,3 +112,46 @@ header {
     background-color: rgb(189, 21, 21, 0.9);
     box-shadow: 0 0 0.5rem rgb(3, 3, 66);
 }
+
+/* Footer Style */
+.footer-lg {
+    box-shadow: 0 0 0.5rem black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-logo {
+    width: 5rem;
+    height: 5rem;
+}
+
+.footer-title {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: 'AlexBrush', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: -0.2rem -0.2rem 0.5rem black;
+}
+
+.footer-font {
+    font-size: 1rem;
+}
+
+.arr {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.arr-mini {
+    display: flex;
+    font-size: 1rem;
+}
+
+.aRR {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.phone {
+    margin-top: 2rem;
+}
