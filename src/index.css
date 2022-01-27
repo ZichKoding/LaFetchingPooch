@@ -64,6 +64,11 @@
     text-align: right
 }
 
+.text-left {
+    margin: 3rem 1rem;
+    text-align: left;
+}
+
 .logo {
     width: 8rem;
     border-radius: 50%;
@@ -71,7 +76,7 @@
 }
 
 .nav-drop-center {
-    width: 20rem;
+    width: 15rem;
     color: white;
     text-align: center;
 }
