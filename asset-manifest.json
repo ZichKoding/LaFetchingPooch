@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/LaFetchingPooch/static/css/main.d9212d04.css",
-    "main.js": "/LaFetchingPooch/static/js/main.a399f21d.js",
+    "main.css": "/LaFetchingPooch/static/css/main.7a54eaad.css",
+    "main.js": "/LaFetchingPooch/static/js/main.4c72009f.js",
     "static/js/787.a841ed7c.chunk.js": "/LaFetchingPooch/static/js/787.a841ed7c.chunk.js",
     "static/media/LadyRedDressWalkingDog.jpg": "/LaFetchingPooch/static/media/LadyRedDressWalkingDog.224c16364c981a30fd7e.jpg",
     "static/media/AlexBrush-Regular.ttf": "/LaFetchingPooch/static/media/AlexBrush-Regular.b50947ef756f43126a52.ttf",
     "index.html": "/LaFetchingPooch/index.html",
-    "main.d9212d04.css.map": "/LaFetchingPooch/static/css/main.d9212d04.css.map",
-    "main.a399f21d.js.map": "/LaFetchingPooch/static/js/main.a399f21d.js.map",
+    "main.7a54eaad.css.map": "/LaFetchingPooch/static/css/main.7a54eaad.css.map",
+    "main.4c72009f.js.map": "/LaFetchingPooch/static/js/main.4c72009f.js.map",
     "787.a841ed7c.chunk.js.map": "/LaFetchingPooch/static/js/787.a841ed7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9212d04.css",
-    "static/js/main.a399f21d.js"
+    "static/css/main.7a54eaad.css",
+    "static/js/main.4c72009f.js"
   ]
 }
