@@ -12,12 +12,12 @@ function Footer() {
 
     // This is the inital screen width from the time the user opens the application
     // to determine what navigation layout it will render
-    let screenWidth = window.screen.width;
+    let screenWidth = window.innerWidth;
 
     // This is to listen if the user changes the size of the browser or screen to render navigation layout accordingly.
     window.addEventListener('resize', async () => {
         try {
-            screenWidth = await window.screen.width;
+            screenWidth = await window.innerWidth;
             setState(screenWidth);
         }
         catch (e) {
