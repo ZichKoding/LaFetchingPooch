@@ -159,4 +159,10 @@ header {
 /* Carousel begin */
 .caro-slide-pics {
     width: 40rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.center-items {
+    text-align: center;
 }
