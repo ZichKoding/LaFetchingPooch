@@ -49,21 +49,21 @@ function Footer() {
                             <Col className="phone">
                                 <a className="footer-font no-a-style font-white" href="tel:9312501080">
                                     {/* 📞(931)250-1080 */}
-                                    <i class="fa fa-phone" aria-hidden="true">
+                                    <i className="fa fa-phone" aria-hidden="true">
                                         <span className="font-b-style">(931)250-1080</span>
                                     </i>
                                 </a>
                             </Col>
                             <Col className="phone">
                                 <a className="footer-font no-a-style font-white" href="mailto:lafetchingpooch@gmail.com">
-                                    <i class="fa fa-envelope-open-o" aria-hidden="true">
+                                    <i className="fa fa-envelope-open-o" aria-hidden="true">
                                     <span className="font-b-style">lafetchingpooch@gmail.com</span>
                                     </i>
                                 </a>
                             </Col>
                             <Col className="phone">
                                 <p className="footer-font no-a-style font-white">
-                                    <i class="fa fa-map-marker" aria-hidden="true">
+                                    <i className="fa fa-map-marker" aria-hidden="true">
                                         <span className="font-b-style">Surrounding areas of Crossville & Knoxville, TN</span>
                                     </i>
                                 </p>
