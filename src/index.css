@@ -14,6 +14,10 @@
     background-color: rgb(22, 22, 141);
 }
 
+.bg-red {
+    background-color: rgb(209, 21, 21);
+}
+
 .font-white {
     color: white;
 }
@@ -116,8 +120,7 @@ header {
 /* Footer Style */
 .footer-lg {
     box-shadow: 0 0 0.5rem black;
-    position: absolute;
-    bottom: 0;
+    margin-top: 1rem;
     width: 100%;
 }
 
@@ -158,11 +161,45 @@ header {
 
 /* Carousel begin */
 .caro-slide-pics {
-    width: 40rem;
-    margin-top: 0.5rem;
+    width: 22rem;
+    height: 25rem;
+    margin: 0.5rem 0;
+    border-radius: 2rem;
     text-align: center;
+    box-shadow: 0rem 0rem 0.5rem black;
 }
 
 .center-items {
     text-align: center;
+}
+
+.red-letters {
+    color: white;
+    text-shadow: 0rem 0rem 0.5rem rgba(255, 0, 0, 0.7);
+    font-weight: 700;
+}
+
+.caro-back {
+    margin-top: 0.2rem;
+    background-color: rgb(209, 21, 21);
+}
+
+/* homepage content begins */
+
+.home-imgs {
+    width: 20rem;
+    margin: 0.5rem 0;
+    border-radius: 2rem;
+    text-align: center;
+    box-shadow: 0rem 0rem 0.5rem black;
+}
+
+.sep-content {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: white;
+    font-style: italic;
+    font-weight: 700;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 0.5rem black;
 }
