@@ -116,7 +116,7 @@ header {
 /* Footer Style */
 .footer-lg {
     box-shadow: 0 0 0.5rem black;
-    position: absolute;
+    margin-top: 10rem;
     bottom: 0;
     width: 100%;
 }
@@ -158,7 +158,8 @@ header {
 
 /* Carousel begin */
 .caro-slide-pics {
-    width: 40rem;
+    width: 20rem;
+    height: 25rem;
     margin-top: 0.5rem;
     text-align: center;
 }
