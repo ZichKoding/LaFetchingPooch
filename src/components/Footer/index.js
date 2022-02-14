@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from '../../images/LadyRedDressWalkingDog.jpg';
-import { Container, Row, Col, Dropdown, DropdownButton } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 function Footer() {
     const [state, setState] = useState(0);
