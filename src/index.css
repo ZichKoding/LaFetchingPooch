@@ -116,8 +116,7 @@ header {
 /* Footer Style */
 .footer-lg {
     box-shadow: 0 0 0.5rem black;
-    margin-top: 10rem;
-    bottom: 0;
+    margin-top: 16rem;
     width: 100%;
 }
 
@@ -160,10 +159,23 @@ header {
 .caro-slide-pics {
     width: 20rem;
     height: 25rem;
-    margin-top: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 5rem;
     text-align: center;
+    box-shadow: 0rem 0rem 0.5rem black;
 }
 
 .center-items {
     text-align: center;
+}
+
+.red-letters {
+    color: white;
+    text-shadow: 0rem 0rem 0.5rem rgba(255, 0, 0, 0.7);
+    font-weight: 700;
+}
+
+.caro-back {
+    background-color: rgb(209, 21, 21);
+    border-radius: 5rem;
 }
